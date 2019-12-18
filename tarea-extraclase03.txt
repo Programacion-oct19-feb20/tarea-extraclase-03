@@ -1,0 +1,71 @@
+Generar un programa en Java que permita solucionar la siguiente problemática: 
+
+Se necesita administrar las parroquias de un cantón.
+
+Antes de empezar a ingresar cada parroquia, se debe ingresar el número de parroquias con las que se va a trabajar.
+
+Para cada parroquia se debe solicitar:
+- Nombre de la parroquia
+- Tipo de parroquia (urbana, rural)
+- Número de habitantes mujeres
+- Número de habitantes hombres
+
+En base a los datos ingresados, generar las siguientes estructuras:
+
+- nombres_parroquias (cuyo número de elementos es igual al número de parroquias con las que se va a trabajar)
+- tipos_parroquias (cuyo número de elementos es igual al número de parroquias con las que se va a trabajar)
+- mujeres_parroquias (cuyo número de elementos es igual al número de parroquias con las que se va a trabajar)
+- hombres_parroquias (cuyo número de elementos es igual al número de parroquias con las que se va a trabajar)
+
+
+
+Por ejemplo para el cantón Loja, se desea ingresar 4 parroquias
+
+El Sagrario
+Sucre
+Vilcabamba
+Yangana
+
+El tipo de parroquia ingresado en casa caso es:
+
+rurales y urbanas
+Posición
+0           El Sagrario           urbana
+1           Sucre                 urbana
+2           Vilcabamba            rural
+3           Yangana               rural
+
+El número de habitantes de acuerdo al estudio poblacional tiene los siguientes resultados:
+
+Posición      Hombres     Mujeres
+0             1000        990  
+1             980         1100  
+2             900         700
+3             520         500
+
+
+
+ 
+Generar:
+- Imprimir el total de hombres que habitan en las parroquias en el cantón Loja
+- Imprimir el total de mujeres que habitan en las parroquias en el cantón Loja
+- Imprimr el total de hombres que habitan en las parroquias rurales en el cantón Loja
+- Imprimir El total de mujeres que habitan en las parroquias urbanas en el cantón Loja
+- En otra estructura generar el total de habitantes de cada parroquia
+- Genera e imprimir un reporte final, con la siguiente información
+
+
+Información de las parroquias urbanas y rurales del cantón Loja
+
+Parroquia: El Sagrario
+  tipo: urbana
+  hombres: 1000
+  mujeres: 990
+  total: 1990
+...
+
+
+Presentar así con todas las parroquias.
+
+
+
